@@ -7,7 +7,14 @@ grand_parent: Docker based installation
 ---
 
 ## Workflow Engine
+{: .no_toc }
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
+ 
 ---
 
 **formsflow.ai** leverages Camunda for workflow and decision automation.
@@ -28,7 +35,7 @@ Admin access to Keycloak serve
 
 The KEYCLOAK_BPM_CLIENT_SECRET provided is the default value and each time you install the project you need to regenerate the SECRET key.  
 
-#### **Get the Keycloak bpm client secret**
+#### Get the Keycloak bpm client secret
 - Go to [http://localhost:8080](http://localhost:8080/) in the browser
 - Login to KeyCloak Realm with admin privileges
 - Configure > Clients >
