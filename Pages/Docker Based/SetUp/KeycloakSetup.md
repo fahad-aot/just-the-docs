@@ -50,9 +50,9 @@ This setup is preferred for local development only. A docker instance will be cr
   ![keycloak 4](../../../assets/setup/keycloak4.png)  
 
       Login Credentials
-                            -----------------
-                            User Name : admin
-                            Password  : changeme
+      -----------------
+      User Name : admin
+      Password  : changeme
 
 ### How to add custom theme  
 

@@ -3,10 +3,19 @@ layout: default
 title: Quick Installation
 nav_order: 1
 parent : Docker based installation
+has_children: true
+has_toc: true
 
 ---
 
 ## Quick installation 
+{: .no_toc }
+
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 
 ---
 
@@ -59,8 +68,8 @@ The quick-installation option saves time and labour, and is less error prone tha
 
  ![installqstn2](../../assets/QuickDocker/installqstn.png)
  {: .mt-6 .ml-6}  
- *b*. Verify the IP address is valid or incorrect after that. If true, provide  'y' as the answer, or else answer ‘n’.    
-
+  *b*. Verify the IP address is valid or incorrect after that. If true, provide  'y' as the answer, or else answer ‘n’.    
+  {: .ml-5}
  ![installqstn3](../../assets/QuickDocker/installqstn2.png)  
   {: .mt-6 .ml-6}  
  *c*. Provide the proper ip address.
@@ -94,7 +103,7 @@ The quick-installation option saves time and labour, and is less error prone tha
 - FormIO should be up and available for use at port defaulted to 3001 i.e. [http://localhost:3001/](http://localhost:3001/).
 - formsflow.ai REST API should be up and available for use at port defaulted to 5000 i.e. [http://localhost:5000/checkpoint](http://localhost:5000/checkpoint).
 - formsflow.ai web application should be up and available for use at port defaulted to 3000 i.e. [http://localhost:3000/](http://localhost:3000/). 
-- Default user credentials are provided [here](https://aot-technologies.github.io/forms-flow-ai-doc/default%20user%20credential.html).
+- Default user credentials are provided  <a href="/Pages/Download%20and%20install/Download.html#formsflow-ai-user-credentials">here</a>.
 
 
 ---

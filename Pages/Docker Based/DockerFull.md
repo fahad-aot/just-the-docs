@@ -6,31 +6,37 @@ parent : Docker based installation
 ---
 
 ## Docker Full Deployment
+{: .no_toc }
 
+## Table of contents
+{: .no_toc .text-delta }
+
+1. TOC
+{:toc}
 ### Installation Steps
 \
 Following steps are required to complete the installation and setup of formsflow.ai solution:  
 
 
-- Keycloak setup
-- forms-flow-analytics setup
-- forms-flow-forms ,forms-flow-web, forms-flow-bpm, forms-flow-api setup  
+1. Keycloak setup
+2. forms-flow-analytics setup
+3. forms-flow-forms ,forms-flow-web, forms-flow-bpm, forms-flow-api setup  
 
 > ####  Notice
 > *Make sure you have a Docker machine up and running*.  
 {: .bg-grey-lt-000}
 
 
-### 1. Keycloak Setup.
+###  Keycloak Setup.
   Keycloak is an open source software product to allow single sign-on with identity and access management aimed at modern applications and services.
 
   To install Keycloak follow the instructions given
   <a  href="/just-the-docs/Pages/Docker%20Based/SetUp/KeycloakSetup.html"  target="_blank" > here</a>
 
-### 2. forms-flow-analytics Setup.  
+###  forms-flow-analytics Setup.  
 Redash is used to build analytics dashboards. The analytics server can be started by following the instructions given <a href="/just-the-docs/Pages/Docker%20Based/SetUp/Analytics.html" target="_blank" >here</a>.
 
-### 3. forms-flow-forms, forms-flow-web, forms-flow-bpm, forms-flow-api & forms-flow-documents Setup. 
+###  forms-flow-forms, forms-flow-web, forms-flow-bpm, forms-flow-api & forms-flow-documents Setup. 
  
  To setup forms-flow-forms, forms-flow-web, forms-flow-bpm & forms-flow-api follow the below instructions .  
   - Make sure your current working directory `is /forms-flow-ai/deployment/docker` .  
